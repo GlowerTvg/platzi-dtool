@@ -9,6 +9,7 @@ import utils.tools as tools
 # import requests
 import re
 
+know_extensions = ['.mp4', '.ts', '.webm', '.mkv', '.html']
 
 def download_page(url, target_path, name):
     tools.check_path(target_path)
@@ -41,6 +42,9 @@ def download_video(url, target_path, name):
 
 def download_lesson(data):
     tools.check_path(data["path"])
+    for extension in know_extensions:
+        if os.path.exists(data["path"] + '/' + data["name"] + extension):
+            return
 
     if data["type"] == "material":
         download_page(data["url"], data["path"], data["name"] + ".html")

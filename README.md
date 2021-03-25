@@ -88,8 +88,14 @@ no es seguro que funcionen si tiene un sistema operativo diferente como Windows.
 *Si al momento de la descarga te da un error prueba verifica si los módulos `json` y `re` 
 están correctamente instalados.*
 
-# Modo de empleo
+## Modo de empleo
+Mira el video
 
+<figure class="video_container">
+  <video controls="true" allowfullscreen="true" poster="docs/poster.png">
+    <source src="docs/guide.mp4" type="video/mp4">
+  </video>
+</figure>
 
 ## Estructura de los directorios usados
 Aquí una breve explicación de los directorios que se crearan y usaran para guardar los
