@@ -234,6 +234,7 @@ def scrape_course(numeration, r_object, course_url):
                     data["webpage"] = f"{ln}{l_count} - webpage.html"
 
                 helper.download_lesson(data)
+                tools.clear_screen()
 
             l_count += 1
         s_count += 1
