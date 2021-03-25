@@ -89,13 +89,8 @@ no es seguro que funcionen si tiene un sistema operativo diferente como Windows.
 están correctamente instalados.*
 
 ## Modo de empleo
-Mira el video
-
-<figure class="video_container">
-  <video controls="true" allowfullscreen="true" poster="docs/poster.png">
-    <source src="docs/guide.mp4" type="video/mp4">
-  </video>
-</figure>
+**Clic para abrir el video**
+[![alt text](https://raw.github.com/Devil64-Dev/platzi-dtool/master/docs/poster.png)](https://raw.github.com/Devil64-Dev/platzi-dtool/master/docs/guide.mp4)
 
 ## Estructura de los directorios usados
 Aquí una breve explicación de los directorios que se crearan y usaran para guardar los
