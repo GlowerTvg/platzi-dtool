@@ -92,6 +92,19 @@ están correctamente instalados.*
 **Clic para abrir el video**
 [![alt text](https://raw.github.com/Devil64-Dev/platzi-dtool/master/docs/poster.png)](https://raw.github.com/Devil64-Dev/platzi-dtool/master/docs/guide.mp4)
 
+***Notas:*** <br>
+El archivo `cookies.txt` debe guardarse en la carpeta donde se encuentra el scipt
+`platzi-dtool.py` para que el programa no genere errores.
+
+Debido a que no tengo una suscripción en platzi no puede comprobar si el modo de descarga
+masiva de cursos funciona correctamente, si hay algún error estén atentos que tan pronto
+comienza el platzi day se corregirán lo antes posible.
+
+Recomiendo que no descarguen los cursos en la carpeta donde se encuentra el programa
+y el resto de archivos, creen una nueva carpeta limpia para que no tengan problema alguno.
+
+**IMPORTANTE: Recomiendo que descarguen varios cursos a la vez, de ese modo puede aprovechar el maximo de la velocidad de descarga que brinde vuestra red.**
+
 ## Estructura de los directorios usados
 Aquí una breve explicación de los directorios que se crearan y usaran para guardar los
 cursos descargados.
